@@ -1,0 +1,449 @@
+<html data-bs-theme="dark">
+
+<head>
+  <title>Sehrim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+  <link href="/css/mine.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/carousel.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+
+
+</head>
+
+<body class="mycitybody">
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+      stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+    </symbol>
+    <symbol id="cart" viewBox="0 0 16 16">
+      <path
+        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    </symbol>
+    <symbol id="chevron-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+    </symbol>
+  </svg>
+
+
+  <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+    <div class="container  ">
+        <a class="navbar-brand d-md-none" href="#">
+          <svg class="bi " width="24" height="24"><use xlink:href="#aperture"/></svg>              
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasLabel">Aperture</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 justify-content-between">
+                  <li class="nav-item"><a class="nav-link" href="#">
+                      <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
+                  </a></li>
+              <li class="nav-item popupsbaby "><a class="nav-link" href="https://m7mdsh4w4.github.io/index.html">Home</a></li>
+              <li class="nav-item popupsbaby "><a class="nav-link" href="https://m7mdsh4w4.github.io/mycity.html">Sehrim</a></li>
+              <li class="nav-item popupsbaby "><a class="nav-link" href="https://m7mdsh4w4.github.io/cv.html">CV</a></li>
+              <li class="nav-item popupsbaby "><a class="nav-link" href="https://m7mdsh4w4.github.io/interests">I.Alanlarım</a></li>
+              <li class="nav-item popupsbaby "><a class="nav-link" href="https://m7mdsh4w4.github.io/contact.html">İletişim</a></li>
+              <li class="nav-item popupsbaby "><a class="nav-link" href="https://m7mdsh4w4.github.io/login.html">Login</a></li>
+      
+          </ul>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"><a href="#emevi">
+
+          <img src="/images/emevii.jpg"
+            class="card-img-top d-block w-100" style="height: 100%; object-fit: cover;" alt="Image 1">
+        </a>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="shdw3">Emevi Camii</h1>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item "><a href="#kale">
+
+          <img src="/images/kale.jpg" class="card-img-top  d-block w-100"
+            alt="Image 1" style="height: 100%; object-fit: cover;">
+        </a>
+        <div class="container ">
+          <div class="carousel-caption ">
+            <h1 class=" shdw3">Şam Kalesi</h1>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item"><a href="#saray">
+
+          <img
+            src="/images/hama.JPG"
+            class="card-img-top  d-block w-100" alt="Image 1" style="height: 100%; object-fit: cover;">
+        </a>
+        <div class="container ">
+          <div class="carousel-caption text-center">
+            <h1 class="shdw3">Azem Sarayı</h1>
+            <!-- <br>
+            <p><a class=" popupsbaby btn btn-lg btn-primary shdw2" href="https://tr.wikipedia.org/wiki/Azm_Saray%C4%B1_(Hama)">Wikipedia</a></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item"><a href="#kiraz">
+
+        <img
+          src="/images/yemekler.jpg"
+          class="card-img-top  d-block w-100" alt="Image 1" style="height: 100%; object-fit: cover;">
+      </a>
+      <div class="container ">
+        <div class="carousel-caption text-end">
+          <h1 class="shdw3">Yemekler</h1>
+          <!-- <br>
+          <p><a class=" popupsbaby btn btn-lg btn-primary shdw2" href="https://tr.wikipedia.org/wiki/Azm_Saray%C4%B1_(Hama)">Wikipedia</a></p> -->
+        </div>
+      </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+
+    <section id="benim-hakkımda">
+      <div class="container amazingaff  popupsbaby">
+        <h2 class=" text-center header2">Şam, Suriye'ye Hoş Geldiniz</h2>
+      </div>
+      <div class="container amazingaf popupsbaby">
+
+        <p class="text-center">Şam, dünyanın en eski sürekli olarak yerleşim gören şehirlerinden biri olan Suriye'nin
+          başkenti. Binlerce yıllık zengin bir tarihe sahip olan Şam, büyük kültürel öneme sahip ve mimari harikalarla
+          dolu bir şehirdir.</p>
+        <p class="text-center">UNESCO Dünya Mirası Listesi'nde yer alan eski Şehir'den, canlı pazarlarına ve hareketli
+          sokaklarına kadar, Şam ziyaretçilere geleneksel ve modern bir karışım sunar. Bu etkileyici şehrin önemli
+          noktalarını keşfedelim.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h2 class="text-center">Şam'daki Tarihi Anıtlar:</h2>
+  </div>
+
+  <!--
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col">
+        <div class="card shadow-sm">
+        <div id="tarihi-id">
+          <img src="https://i.tmgrup.com.tr/fikriyat/album/2023/08/13/sam-emevi-camii-1691925229726.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5>Emevi Camii (Şam Büyük Camii):</h5>
+            <p class="card-text">Emevi Camii, aynı zamanda Şam Büyük Camii olarak da bilinir ve dünyanın en eski ve en önemli camilerinden biridir. 8. yüzyılın başlarında inşa edilen cami, eski bir Hristiyan bazilikasının yerinde bulunur ve İslam mimarisinin bir başyapıtı olarak kabul edilir. Caminin sembolü olan "İsa'nın Minaresi" olarak bilinen minaresi, şehrin sembollerinden biridir. Geniş avlusu, süslü mozaikleri ve Selahaddin'in türbesi ziyaretçi ve ibadet edenleri cezbetmektedir.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Damaskus4.jpg" class="card-img-top img-fluid" alt="Image 2">
+        <div class="card-body">
+          <h5>Şam Kalesi (Qal'at al-Asad):</h5>
+          <p class="card-text">Şam Kalesi, Eski Şehir'i gören bir tepenin üzerine yerleştirilmiş görkemli bir kaledir ve binlerce yıllık bir tarihe sahiptir. Başlangıçta Romalılar tarafından inşa edilen kale, tarih boyunca Ayyubiler, Memlükler ve Osmanlılar gibi çeşitli hükümdarlar tarafından genişletilmiş ve restore edilmiştir. Kale, Şam'ın panoramik manzarasını sunar ve zengin tarihine ait çeşitli dönemlerden artefaktları sergileyen müzeler ev sahipliği yapar.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AlAzamPalace_at_Hama1.JPG/800px-AlAzamPalace_at_Hama1.JPG" height="201px" class="card-img-top" alt="Image 3">
+        <div class="card-body">
+          <h5>Azem Sarayı:</h5>
+          <p class="card-text">Eski Şehir'in kalbinde bulunan Azem Sarayı, Osmanlı mimarisinin etkileyici bir örneğidir. 18. yüzyılda Şam valisi için bir konut olarak inşa edilen saray, güzel dekore edilmiş avluları, karmaşık ahşap oymaları ve nefis mermer çeşmeleri ile dikkat çeker. Saray, günümüzde Osmanlı elitinin lüks yaşam tarzını anlatan bir müze olarak hizmet vermektedir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+  
+<!--
+  
+  <section class="gallery min-vh-100">
+    <div class="container-lg">
+      <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row mb-2 justify-content-between ">
+        <div class="col">
+          <div class="card ">
+            <img style="max-width: 100%;" src="/images/takim.jpg" class="gallery-item">
+            <div class="card-body">
+              <p>
+                abc
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img style="max-width: 100%;" src="/images/takim.jpg" class="gallery-item">
+            <div class="card-body">
+              <p>
+                abc
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img style="max-width: 100%;" src="/images/takim.jpg" class="gallery-item">
+            <div class="card-body">
+              <p>
+                abc
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card">
+            <img style="max-width: 100%;" src="/images/takim.jpg" class="gallery-item">
+            <div class="card-body">
+              <p>
+                abc
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+-->
+
+
+<main>
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col popupsbaby" id="emevi">
+        <div class="card shadow-sm">
+          <img src="https://i.tmgrup.com.tr/fikriyat/album/2023/08/13/sam-emevi-camii-1691925229726.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body" style="height: 400;">
+            <h6 class="card-text text-center">Emevi Camii (Şam Büyük Camii):</h6>
+            <p class="card-text">Emevi Camii, aynı zamanda Şam Büyük Camii olarak da bilinir ve dünyanın en eski ve en önemli camilerinden biridir. 8. yüzyılın başlarında inşa edilen cami, eski bir Hristiyan bazilikasının yerinde bulunur ve İslam mimarisinin bir başyapıtı olarak kabul edilir. Caminin sembolü olan "İsa'nın Minaresi" olarak bilinen minaresi, şehrin sembollerinden biridir. Geniş avlusu, süslü mozaikleri ve Selahaddin'in türbesi ziyaretçi ve ibadet edenleri cezbetmektedir.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col popupsbaby" id="kale">
+        <div class="card shadow-sm">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Damaskus4.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body" style="height: 400;">
+            <h6 class="card-text text-center">Şam Kalesi (Qal'at al-Asad):</h6>
+            <p class="card-text"> Şam Kalesi, Eski Şehir'i gören bir tepenin üzerine yerleştirilmiş görkemli bir kaledir ve binlerce yıllık bir tarihe sahiptir. Başlangıçta Romalılar tarafından inşa edilen kale, tarih boyunca Ayyubiler, Memlükler ve Osmanlılar gibi çeşitli hükümdarlar tarafından genişletilmiş ve restore edilmiştir. Kale, Şam'ın panoramik manzarasını sunar ve zengin tarihine ait çeşitli dönemlerden artefaktları sergileyen müzeler ev sahipliği yapar.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col popupsbaby" id="saray">
+        <div class="card shadow-sm">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AlAzamPalace_at_Hama1.JPG/800px-AlAzamPalace_at_Hama1.JPG" class="card-img-top" alt="Image 1">
+          <div class="card-body" style="height: 400;">
+            <h6 class="card-text text-center">Azem Sarayı:</h6>
+            <p class="card-text"> Eski Şehir'in kalbinde bulunan Azem Sarayı, Osmanlı mimarisinin etkileyici bir örneğidir. 18. yüzyılda Şam valisi için bir konut olarak inşa edilen saray, güzel dekore edilmiş avluları, karmaşık ahşap oymaları ve nefis mermer çeşmeleri ile dikkat çeker. Saray, günümüzde Osmanlı elitinin lüks yaşam tarzını anlatan bir müze olarak hizmet vermektedir.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</main>
+<!------------------------------------------------------------------------------------------------------------------>
+  <hr class="featurette2-divider">
+
+  <h2 class=" text-center">Şam'da denemeniz gereken popüler yiyecek:</h2>
+
+  <main>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col popupsbaby" id="siskebab">
+            <div class="card shadow-sm">
+              <img src="/images/sis kebab.png" style="object-fit: cover; height: 200px;"  class="card-img-top" alt="Image 1">
+              <div class="card-body" style="height: 400;">
+                <h6 class="card-text text-center"> Şam Şiş Kebabı:</h6>
+                <p class="card-text">Şiş kebap, Şam'ın sokak lezzetlerinden biridir. İnce dilimlenmiş, marine edilmiş et
+                  (genellikle kuzu, tavuk veya dana) dikey bir dönerde ızgaralanır. Taze pişmiş pide ekmeği içinde servis
+                  edilir ve sebzeler ve tahin sos ile süslenir. Şam şiş kebap, yerli halkın ve ziyaretçilerin keyifle
+                  tükettiği lezzetli bir atıştırmalıktır.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col popupsbaby" id="kiraz">
+            <div class="card shadow-sm">
+              <img src="/images/kiraz.jpg" style="object-fit: cover; height: 200px;" class="card-img-top" alt="Image 1">
+              <div class="card-body" style="height: 400;">
+                <h6 class="card-text text-center">   Kebab Bil Karaz:</h6>
+                <p class="card-text">Bu geleneksel yemekte, lezzetli kuzu veya dana kebapları ekşi ve tatlı bir kiraz
+                  sosunda pişirilir. Kebab bil karaz genellikle pirinç veya lavaş ekmeği ile servis edilir, böylece tatlı ve
+                  ekşi lezzetlerin birleşimini sunar. Bu yemek, Şam mutfağının tatlı ve tuzlu lezzetlerin bir araya geldiği
+                  örneklendiren, doyurucu ve lezzetli bir örneğidir.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col popupsbaby" id="fatteh">
+            <div class="card shadow-sm">
+              <img src="/images/fatteh.png  " class="card-img-top" alt="Image 1" style="object-fit: cover; height: 200px;">
+              <div class="card-body" style="height: 400;">
+                <h6 class="card-text text-center">  Fatteh:</h6>
+                <p class="card-text">Popüler bir atıştırmalık veya kahvaltı yemeği olan fatteh, gevrek pide, yoğurt, nohut
+                  ve baharatların katmanlarından oluşur. Üzerine zeytinyağı gezdirilir, kavrulmuş fındık ve taze otlarla
+                  süslenir. Fatteh'in dokuları ve lezzetleri bir araya gelerek, hem rahatlatıcı hem de keyifli bir yemek
+                  sunar.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    </main>
+
+  <!--
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col  popupsbaby">
+      <div class="card shadow-sm">
+   
+    </div>
+
+    <div class="col popupsbaby">
+      <div class="card shadow-sm">
+      
+      </div>
+    </div>
+
+    <div class="col popupsbaby">
+      <div class="card shadow-sm">
+        <img
+          src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ESLEX7MQFEMYXLYO2YZNJIKTCA.jpg&w=1440"
+          height="225px" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5>
+          
+          </h5>
+
+          <p class="card-text">
+          </p>
+          
+          <div class="d-flex justify-content-between align-items-center">
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  -->
+
+
+
+  <footer class="text-center text-lg-start shdw2" style="background-color: #424242;">
+    <hr>
+          <div class="container d-flex justify-content-center py-0">
+            <button type="button" class="btn  btn-lg btn-floating mx-2" >
+              <a href="https://www.facebook.com/profile.php?id=100012471542002" target="_blank" class="popupsbaby  btn btn-primary btn-lg btn-floating mx-2" style="background-color: #2b2b2b;">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.instagram.com/m7.sh._" target="_blank" class="popupsbaby  btn btn-primary btn-lg btn-floating mx-2" style="background-color: #2b2b2b;">
+                <i class="fab fa-youtube"></i> Instagram
+            </a>
+            <a href="https://steamcommunity.com/id/justakid2004" target="_blank" class="popupsbaby  btn btn-primary btn-lg btn-floating mx-2" style="background-color: #2b2b2b;">
+                <i class="fab fa-instagram"></i> Steam
+            </a>
+            </button>
+          </div>
+      
+          <!-- Copyright -->
+          <div class="text-center text-white p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Mohamad Sh:
+            <a class="text-white" href="https://m7mdsh4w4.github.io/"> m7mdsh4w4.github.io</a>
+          </div>
+          <!-- Copyright -->
+  </footer>
+
+</body>
+ 
+
+
+  <!-- Bunlar, Şam'ın sunduğu leziz ve çeşitli mutfağın sadece birkaç örneğidir. Eski Şehir'in kalabalık sokaklarını keşfederken veya yerel bir restoranda yemek yerken, Şam mutfağının lezzetlerini unutulmaz bir mutfak deneyimi için tadın.
+                 -->
+
+
+
+  <!-- <img src="https://cdn.getiryemek.com/restaurants/1667555012014_1125x522.webp" alt="Image 1">
+        
+       
+            <img src="https://rootedspices.com/wp-content/uploads/2021/07/211-cherry-kebab-square2.jpg" alt="Image 2">
+       
+       
+            <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ESLEX7MQFEMYXLYO2YZNJIKTCA.jpg&w=1440" alt="Image 3">
+      
+       
+            <img src="https://i.cbc.ca/1.7142653.1710348600!/fileImage/httpImage/image.jpeg_gen/derivatives/16x9_780/maqluba.jpeg" alt="Image 4"> -->
+
+
+
+  <!-- Şam'ın canlı sokaklarını keşfederken, kendinizi binlerce yıllık bir tarihin ve modern yaşamın kusursuz bir şekilde iç içe geçtiği bir şehirde bulacaksınız. Tarihi anıtlarının görkemi, pazarlarının canlılığı ve insanlarının samimiyeti ile Şam,  zamanın ve kültürün etkileyici bir yolculuğunu sunar.
+
+                    Eski Şehir'in dolambaçlı sokaklarında gezinirken, geleneksel Suriye mutfağının lezzetlerini tadarken veya tarihi camilerin ve sarayların karmaşık tasarımlarını hayranlıkla izlerken, Şam'ın her köşesi keşfedilmeyi bekleyen bir hikaye anlatır.
+                    
+                    Suriye'nin başkenti ve dünyanın en eski sürekli olarak yerleşim gören şehirlerinden biri olan Şam, zengin mirasının, sıcak misafirperverliğinin ve muhteşem doğal güzelliklerinin tadını çıkarmak için ziyaretçileri davet eder. Tarih meraklısı, mutfak keşfetmeye düşkün veya sadece macera arayan herkes için, Şam büyüleyici ve ilham verici bir yolculuk sunar. -->
+
+
+
+
+
+</html>
